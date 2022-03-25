@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">USSDNavigator</string>
+    <string name="accessibility_service_desc">It helps to navigate through various USSD response dialog easily.</string>
+</resources>
