@@ -1,3 +1,11 @@
+<!--
+  ~ /**
+  ~  * Created by Chiranjeevi Pandey on 26/3/22, 1:07 pm
+  ~  * Copyright (c) 2022 . All rights reserved.
+  ~  * Last modified 26/3/22, 1:07 pm
+  ~  */
+  -->
+
 <resources>
     <string name="app_name">USSDNavigator</string>
     <string name="accessibility_service_desc">It helps to navigate through various USSD response dialog easily.</string>

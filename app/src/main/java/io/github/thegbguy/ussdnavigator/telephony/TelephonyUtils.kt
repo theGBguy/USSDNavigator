@@ -1,3 +1,11 @@
+/*
+ * *
+ *  * Created by Chiranjeevi Pandey on 26/3/22, 1:07 pm
+ *  * Copyright (c) 2022 . All rights reserved.
+ *  * Last modified 26/3/22, 1:07 pm
+ *
+ */
+
 package io.github.thegbguy.ussdnavigator.telephony
 
 import android.Manifest
@@ -99,6 +107,10 @@ fun isPermissionGranted(context: Context, permission: String): Boolean {
         context,
         permission
     ) == PackageManager.PERMISSION_GRANTED
+}
+
+fun requestPermission(activity: Activity, permission: String){
+    ActivityCompat.requestPermissions(activity, arrayOf(permission), 1100)
 }
 
 fun requestPermissions(activity: Activity, permissions: Array<String>) {
